@@ -2,6 +2,7 @@ Feature: Products sorting
   As a customer
   I want to sort products
   So that I can easily find what I need
+  hue hue
 
   Scenario Outline: Sort products by different criteria
     Given I open the homepage
