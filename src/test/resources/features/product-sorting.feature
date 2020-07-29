@@ -4,7 +4,7 @@ Feature: Products sorting
   So that I can easily find what I need
   hue hue
 
-  Scenario Outline: Sort products by different criteria
+  Scenario Outline: Product sorting hue
     Given I open the homepage
     And I search products by "<keyword>"
     When I select the option "<sort criteria>" in the Sort By list
